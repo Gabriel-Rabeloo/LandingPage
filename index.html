@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/elements.css">
+  <link rel="stylesheet" href="assets/css/classes.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+  <aside class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false;">
+        <a href="#home">LOGO</a>
+      </h1>
+
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li><a href="#intro">Intro</a></li>
+          <li><a href="#grid-one">Jobs</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#jobs">
+            Software</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="menu-spacing"></div>
+
+  <section id="home" class="intro main-bg section">
+    <div class="main-content home-contact-content">
+      <div class="home-contact-text-content">
+        <h2>JavaScript</h2>
+                <p>JavaScript is a complex topic that can be extremely difficult to get a handle on.However, it has
+                    the websites that we manage.
+                    Asues to evolve, JavaScript usage continues to rise.
+                    SEO professionals may s gone by when websites were static and coded only in HTML and
+                    CSS.
+                </p>
+            </div>
+            <div class="imgs">
+                <img src="assets/img/javascript.svg"
+                    alt="Homem segurando logo de Css, Mulher enpurrando a logo do JavaScript e um homem segurando a logo do Html ">
+            </div>
+    </div>
+  </section>
+
+  <section id="intro" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>top 3 programming languages</h2>
+            <p>Python continues to be one of the best programming languages every developer should learn this year. The
+                language is easy-to-learn and offers a clean and well-structured code, making it powerful enough to
+                build a decent web application.
+            </p>
+
+            <p>Java is celebrating its 24th birthday this year and has been one of the most popular programming
+                languages used for developing server-side applications. Java is a practical choice for developing
+                Android apps as it can be used to create highly functional programs and platforms.
+            </p>
+
+            <p>JavaScript (also known as NodeJS) is a popular language among developers who need to work on server-side
+                and client-side programming. It is compatible with several other programming languages, allowing you to
+                create animations, set up buttons, and manage multimedia.
+            </p>
+    </div>
+  </section>
+
+
+  <section id="grid-one" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">jobs</h2>
+            <p class="grid-description">A brief description</p>
+
+            <div class="grid">
+                <article>
+                    <h3>Computer programmer</h3>
+                    <p>Computer programmers write and edit code for computer software programs and ensure the programs
+                        run with no errors. Computer programmers solve any issues or problems that arise during the
+                        coding process, and they make sure that the final product meets their clients’ standards. They
+                        might also be responsible for training others to use their programs once they are complete.</p>
+                </article>
+                <article>
+                    <h3>Web developer</h3>
+                    <p>Web developers design and create websites. They are responsible for both how the site looks and
+                        how it functions. They will test and evaluate a site to make sure it meets quality standards
+                        before it is released. After the site is published, they monitor the site’s continued
+                        performance and troubleshoot any technical problems that might arise. They ensure that their
+                        websites and programs meet current security standards.</p>
+                </article>
+                <article>
+                    <h3>Programmer analyst</h3>
+                    <p>Programming analysis can be a compelling career because a career as a programmer analyst combines
+                        the jobs of a systems analyst and a computer programmer. Like most programming professionals,
+                        programmer analysts design and create computer software and programs. Working with other
+                        computer programmers, a programmer analyst then oversees the writing of the code necessary to
+                        create and publish the programs.</p>
+                </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="grid-one white-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Gallery</h2>
+      <p class="grid-description">Here are some of my pics..</p>
+
+      <div class="grid">
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=1" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=2" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=3" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=4" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=5" alt="random image from unsplash" />
+        </div>
+        <div class="gallery-img">
+          <img src="http://source.unsplash.com/random/360x360?r=6" alt="random image from unsplash" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="jobs" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Recent jobs</h2>
+      <p class="grid-description">
+        some of my programs.</p>
+
+      <div class="grid-two">
+        <article>
+          <h3>Sentiment analysis for product rating</h3>
+          <p>This project aims to develop a sentiment analysis system for product rating. It is an e-commerce
+              web application. The main goal of this sentiment analysis system is to understand the hidden
+              sentiments of customers in feedback and comments and analyze their product rating patterns. </p>
+      </article>
+      <article>
+          <h3>Advanced employee management system</h3>
+          <p>Usually, large companies and organizations have a vast army of human resources working under
+              them. In such scenarios where there’s a significant number of human employees to manage, it
+              becomes challenging to supervise and manage the activities of the human resources efficiently.
+              Such companies/organizations need an advanced employee management system that can handle
+              everything related to the company’s human resources.</p>
+      </article>
+      <article>
+          <h3>Weather forecasting system</h3>
+          <p>Weather forecasting systems use a combination of science and technology to make accurate
+              predictions on weather conditions of a particular location at a particular time. Weather
+              forecast systems and applications predict weather conditions based on multiple parameters, such
+              as pressure, temperature, humidity, wind speed, etc.</p>
+      </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Pricing</h2>
+            <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and
+                some
+                surprises at the machine’s performance. This post details some background information on the experience
+                of
+                porting Firefox to run natively on these CPUs.</p>
+            <p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that
+                needed to
+                know about the new architecture, before moving on to the concept of Universal Binaries.</p>
+
+
+      <div class="responsive-table">
+        <table>
+          <caption>Pricing table</caption>
+
+          <thead>
+            <tr>
+              <th>Title 1</th>
+              <th>Title 2</th>
+              <th>Title 3</th>
+              <th>Title 4</th>
+              <th>Title 5</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Content 1</td>
+              <td>Content 2</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+            </tr>
+            <tr>
+              <td>Content 1</td>
+              <td>Content 2</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+            </tr>
+            <tr>
+              <td>Content 1</td>
+              <td>Content 2</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+              <td>Content 3</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>Testando</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="intro main-bg section">
+    <div class="main-content home-contact-content">
+      <div class="home-contact-text-content">
+        <h2>contact us</h2>
+                <p>Contact is the act of touching or communicating with someone or something else. ... "To make contact" (the noun) means to establish some form of communication, be it physical, verbal, or some other kind. To contact (the verb) means to establish that communication.
+                </p>
+      </div>
+      <div class="imgs">
+        <img src="assets/img/contact-us.svg"
+            alt="Duas mulheres usando o celular, símbolos de diretc, mensagem e telefone, juntamente com árvores ao fundo da paisagem ">
+      </div>
+      <div class="contact-form">
+        <fieldset class="form-grid">
+          <legend>Contact me</legend>
+
+          <div class="form-group">
+            <label for="first-name">First name</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Your name">
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">last name</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Your e-mail">
+          </div>
+
+          <div class="form-group full-width">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit">Send message</button>
+          </div>
+        </fieldset>
+      </div>  
+    </div>
+  </section>
+
+
+  <footer id="footer" class="footer white-bg">
+    <p><a rel="nofollow" target="_blank" href="https://beacons.page/gabriel_rabelo">Feito com <span class="heart">❤</span> por &copy;<b>Gabriel Rabelo</b></a></p>
+  </footer>
+
+  <a class="back-to-top" href="#home">➤</a>
+
+</body>
+
+</html>
