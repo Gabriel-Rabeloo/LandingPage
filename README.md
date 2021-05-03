@@ -1,4 +1,4 @@
-Uma Landing Page com funcionadades de menu, efeitos de fotos, formulario, tabela e media query adequada.
+A Landing Page with **menu , photo effects, form, table and appropriate media query**.
 
-Não perca tempo lendo o que está escrito na página, pois coloquei somente para ilustrar e não ficar cheio de lorem. 
-Simplesmente copiei e colei de alguns, alguns textos não fazem sentido algum 
+ >Do not waste time reading what is written on the page, because I put it just to illustrate and not be full of lorem.
+I just copied and pasted some, some texts don't make any sense.
